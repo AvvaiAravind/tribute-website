@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e5e5e5;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+.content {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.top_section {
+    display: flex;
+    margin-top: 10%;
+    align-items: end;
+    justify-content: space-around;
+}
+img, .image_container {
+    width: 25vw;
+    border-radius: 45%;
+}
+.heading h1 {
+    font-size: 4rem;
+    text-align: justify;
+}
+.heading h4 {
+  text-align: end;
+  font-size: 3rem;
+}
+
+.mid_section h2 {
+     margin-top: 10%;
+     font-size: 3rem;
+     letter-spacing: .5rem;
+}
+.mid_section p {
+    font-size: 1.5rem;
+    margin-top: 5%;
+    text-indent: 5rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+.bio_section h3 {
+    margin-top: 10%;
+    font-size: 3rem;
+}
+.bio_section ul {
+    margin-top: 5%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+footer {
+    text-align: end;
+    margin-top: 20%;
+    font-size: 1.5rem;
+}
